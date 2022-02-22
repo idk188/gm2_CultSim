@@ -20,6 +20,15 @@ if(Hp <= 0)
 }
 
 
+if(Hp > MaxHp)
+{
+	Hp = MaxHp;
+}
+
+if(Hunger > 100)
+{
+	Hunger = 100;
+}
 
 
 /*
