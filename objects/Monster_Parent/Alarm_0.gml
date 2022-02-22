@@ -7,7 +7,6 @@ if(Hunger >= 10 or Thrist >= 10)
 	if(Hp < MaxHp)
 	{
 		Hp += 1 + Cult_Level div 2;
-		Hp = clamp(Hp,0,MaxHp);
 	}
 }
 
@@ -29,10 +28,5 @@ if(Thrist <= 0)
 	Thrist = 0;
 }
 
-
-
-
-clamp(Hunger,0,100);
-clamp(Thrist,0,100);
 
 alarm_set(0,5 * 30);
