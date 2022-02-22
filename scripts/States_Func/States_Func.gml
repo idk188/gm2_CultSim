@@ -37,8 +37,7 @@ function Fight_State(){
 	
 	if(Near > 1 and distance_to_object(Near) >= 10 * Size and Hp >= (MaxHp * 0.5))
 	{
-		dir = point_direction(x,y,Near.x,Near.y);
-		direction = dir;
+		
 		mp_linear_step(Near.x,Near.y,Speed,false)
 	}
 	else
