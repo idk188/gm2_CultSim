@@ -1,8 +1,8 @@
 
 if(instance_number(Monster_Parent) < 10)
 {
-	spawn = choose(Obj_Snake_Adder,Obj_Black_mamba);
-	instance_create_layer(random(room_width),random(room_height),"Instances",spawn);
+	SnakeSpawn = choose(Obj_Snake_Adder,Obj_Black_mamba);
+	instance_create_layer(random(room_width),random(room_height),"Instances",SnakeSpawn);
 	instance_create_layer(random(room_width),random(room_height),"Instances",Obj_Elephant);
 }
 

@@ -46,6 +46,7 @@ function Fight_State(){
 		Near.Hp -= abs(Attack - Near.Defence)
 		Fight_timer = 0;
 		instance_create_layer(Near.x,Near.y,"Instances",obj_FireBreath);
+
 	}
 	else
 	if(Hp <= (MaxHp * 0.5))
