@@ -39,7 +39,8 @@ Attack = irandom(5) + Str;
 Defence = irandom(5) + Con;
 Speed = irandom(5) + Dex;
 Qi = 0;
-DivineSense = 0;
+Sense = 30;
+
 Size = 1;
 AttackDelay = irandom_range(30,300);
 Food_Type = -1;

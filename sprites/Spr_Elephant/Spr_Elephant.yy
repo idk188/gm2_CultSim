@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Spr_Elephant","path":"sprites/Spr_Elephant/Spr_Elephant.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Spr_Elephant",
     "tags": [],
     "resourceType": "GMSequence",

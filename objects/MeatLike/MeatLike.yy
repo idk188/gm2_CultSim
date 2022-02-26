@@ -26,11 +26,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Parents",
-    "path": "folders/Objects/Parents.yy",
+    "name": "Foods",
+    "path": "folders/Objects/Foods.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Meat_Food_Parent",
+  "name": "MeatLike",
   "tags": [],
   "resourceType": "GMObject",
 }

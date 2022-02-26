@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "Water_Parent",
-    "path": "objects/Water_Parent/Water_Parent.yy",
+    "name": "Water",
+    "path": "objects/Water/Water.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

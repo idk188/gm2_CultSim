@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Firebreath","path":"sprites/spr_Firebreath/spr_Firebreath.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Firebreath",
     "tags": [],
     "resourceType": "GMSequence",

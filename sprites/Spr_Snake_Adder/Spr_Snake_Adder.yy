@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Spr_Snake_Adder","path":"sprites/Spr_Snake_Adder/Spr_Snake_Adder.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Spr_Snake_Adder",
     "tags": [],
     "resourceType": "GMSequence",

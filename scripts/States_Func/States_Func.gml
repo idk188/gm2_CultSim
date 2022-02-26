@@ -6,7 +6,7 @@ function Cult_State(){
 	
 	Qi += choose(1, Wis, Int) * 0.05
 
-	Near = collision_circle(x+ circle_fix,y+ circle_fix,30*Size,Monster_Parent,false,true);
+	Near = collision_circle(x+ circle_fix,y+ circle_fix,Sense*Size,Monster,false,true);
 	
 	if(Near > 1)
 	{
@@ -32,7 +32,7 @@ function Cult_State(){
 
 function Fight_State(){
 	Fight_timer ++
-	Near = collision_circle(x+ circle_fix,y+ circle_fix,30*Size,Monster_Parent,false,true);
+	Near = collision_circle(x+ circle_fix,y+ circle_fix,Sense*Size,Monster,false,true);
 	
 	
 	if(Near > 1 and distance_to_object(Near) >= 10 * Size and Hp >= (MaxHp * 0.5))
@@ -61,7 +61,7 @@ function Fight_State(){
 };
 
 function Run_State(){
-	Near = collision_circle(x+ circle_fix,y+ circle_fix,50*Size,Monster_Parent,false,true);
+	Near = collision_circle(x+ circle_fix,y+ circle_fix,50*Size,Monster,false,true);
 	
 	Run_timer = 0;
 	Run = false;
@@ -94,7 +94,7 @@ function Run_State(){
 function Wander_State(){
 
 	
-	Near = collision_circle(x+ circle_fix,y+ circle_fix,30*Size,Monster_Parent,false,true);
+	Near = collision_circle(x+ circle_fix,y+ circle_fix,Sense*Size,Monster,false,true);
 	
 	
 	if(Near > 1)
@@ -138,7 +138,7 @@ function Wander_State(){
 
 
 function Thristy_State(){
-	Near = instance_nearest(x,y,Water_Parent);
+	Near = instance_nearest(x,y,Water);
 	
 	if(Near > 1)
 	{
@@ -150,7 +150,7 @@ function Thristy_State(){
 
 
 	
-	Enemy_Near = collision_circle(x+ circle_fix,y+ circle_fix,30*Size,Monster_Parent,false,true);
+	Enemy_Near = collision_circle(x+ circle_fix,y+ circle_fix,Sense*Size,Monster,false,true);
 	
 	if(Enemy_Near > 1)
 	{
@@ -173,7 +173,7 @@ function Hungry_State(){
 	
 	if(Food_Type == Foods.Grass)
 	{
-		Near = instance_nearest(x,y,Grass_Food_Parent);
+		Near = instance_nearest(x,y,GrassLike);
 		
 		if(Near > 1)
 		{
@@ -188,9 +188,9 @@ function Hungry_State(){
 	
 	if(Food_Type == Foods.Meat)
 	{
-		Near = instance_nearest(x,y,Meat_Food_Parent);
+		Near = instance_nearest(x,y,MeatLike);
 	
-		ToKill = instance_nearest(x,y,Monster_Parent);
+		ToKill = instance_nearest(x,y,Monster);
 	
 		if(Near > 1)
 		{
@@ -208,7 +208,7 @@ function Hungry_State(){
 	}
 	
 	
-	Enemy_Near = collision_circle(x+ circle_fix,y+ circle_fix,30*Size,Monster_Parent,false,true);
+	Enemy_Near = collision_circle(x+ circle_fix,y+ circle_fix,Sense*Size,Monster,false,true);
 	
 	if(Enemy_Near > 1)
 	{
@@ -260,6 +260,7 @@ function LevelUp()
 	Con += 1;
 	Wis += 1;
 	Cha += 1;
+	Sense += 5;
 	MaxHp += Con;
 	Speed += Dex * 0.1;
 	Attack += Str;
@@ -275,6 +276,7 @@ function LevelUp2()
 	Con += 3;
 	Wis += 3;
 	Cha += 3;
+	Sense += 10;
 	MaxHp += Con;
 	Speed += Dex * 0.1;
 	Attack += Str;

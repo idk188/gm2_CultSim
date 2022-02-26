@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Snake_black_mamba","path":"sprites/spr_Snake_black_mamba/spr_Snake_black_mamba.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_Snake_black_mamba",
     "tags": [],
     "resourceType": "GMSequence",

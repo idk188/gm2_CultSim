@@ -1,15 +1,12 @@
 {
-  "spriteId": {
-    "name": "Spr_Grass",
-    "path": "sprites/Spr_Grass/Spr_Grass.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "GrassLike",
-    "path": "objects/GrassLike/GrassLike.yy",
+    "name": "Monster",
+    "path": "objects/Monster/Monster.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -29,11 +26,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Foods",
-    "path": "folders/Objects/Foods.yy",
+    "name": "Animals",
+    "path": "folders/Objects/Animals.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Grass",
+  "name": "Grass_Eating",
   "tags": [],
   "resourceType": "GMObject",
 }

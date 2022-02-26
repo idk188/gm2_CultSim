@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "Meat_Food_Parent",
-    "path": "objects/Meat_Food_Parent/Meat_Food_Parent.yy",
+    "name": "MeatLike",
+    "path": "objects/MeatLike/MeatLike.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

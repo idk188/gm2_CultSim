@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Spr_Grass","path":"sprites/Spr_Grass/Spr_Grass.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Spr_Grass",
     "tags": [],
     "resourceType": "GMSequence",

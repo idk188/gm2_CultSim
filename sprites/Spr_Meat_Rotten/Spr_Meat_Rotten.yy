@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Spr_Meat_Rotten","path":"sprites/Spr_Meat_Rotten/Spr_Meat_Rotten.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Spr_Meat_Rotten",
     "tags": [],
     "resourceType": "GMSequence",

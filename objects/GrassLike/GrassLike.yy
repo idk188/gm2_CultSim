@@ -5,8 +5,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "Monster_Parent",
-    "path": "objects/Monster_Parent/Monster_Parent.yy",
+    "name": "Food_Parent",
+    "path": "objects/Food_Parent/Food_Parent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -26,11 +26,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Parents",
-    "path": "folders/Objects/Parents.yy",
+    "name": "Foods",
+    "path": "folders/Objects/Foods.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Grass_Monster_Parent",
+  "name": "GrassLike",
   "tags": [],
   "resourceType": "GMObject",
 }
